@@ -66,13 +66,13 @@ a:hover {
   flex-grow: 1;
   flex-basis: 0;align-self: stretch;
 }
-
+.react-logo{position: relative;}
 .feature-description {
   flex-grow: 1;
   flex-basis: 0;align-self: stretch;padding: 0 20px;
 }
 .iphone-demo .big{height: 630px;width: 300px;}
-#android-robot{position: absolute;right: -60px;bottom: -80px;transform:rotate(-45deg);}
+#android-robot{position: absolute;right: -80px;bottom: -100px;transform:rotate(-45deg);}
 .init{position: absolute;left: 50%;top:50%;transform:translate(-50%,-50%);width: 255px;height: auto;}
 #slider-control {
   padding: 3px;position: fixed;right: 10px;top:50%;transform:translate(0,-50%);
@@ -96,6 +96,6 @@ a:hover {
   background-size: cover;
   background-position: center;}
 .overlay:before{
-  position: absolute;content: "";z-index: 2;left: 0;right: 0;bottom: 0;height: 200px;
+  position: absolute;content: "";left: 0;right: 0;bottom: 0;height: 200px;
   background-image: linear-gradient(rgba(0,0,0,0),rgba(31,30,52,1));
 }
